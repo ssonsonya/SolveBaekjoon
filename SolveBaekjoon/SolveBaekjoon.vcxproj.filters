@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Core\MainPage.cpp" />
+    <ClCompile Include="2231_DigitGenerator\DigitGenerator.cpp" />
+    <ClCompile Include="2557_HelloWorld\HelloWorld.cpp" />
+    <ClCompile Include="2798_BlackJack\BlackJack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Core\Question.h" />
+    <ClInclude Include="Core\MainPage.h" />
+    <ClInclude Include="2231_DigitGenerator\DigitGenerator.h" />
+    <ClInclude Include="2557_HelloWorld\HelloWorld.h" />
+    <ClInclude Include="2798_BlackJack\BlackJack.h" />
+  </ItemGroup>
+</Project>

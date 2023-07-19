@@ -142,6 +142,7 @@
     <ClCompile Include="2231_DigitGenerator\DigitGenerator.cpp" />
     <ClCompile Include="2557_HelloWorld\HelloWorld.cpp" />
     <ClCompile Include="2798_BlackJack\BlackJack.cpp" />
+    <ClCompile Include="1260_DFSBFS\DFSBFS.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Core\MainPage.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -157,6 +158,7 @@
     <ClInclude Include="Core\MainPage.h" />
     <ClInclude Include="2231_DigitGenerator\DigitGenerator.h" />
     <ClInclude Include="2557_HelloWorld\HelloWorld.h" />
+    <ClInclude Include="1260_DFSBFS\DFSBFS.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

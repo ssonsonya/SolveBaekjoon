@@ -69,6 +69,15 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+
+	case 1260:
+	{
+		Question* q_1260 = new DFSBFS();
+		q_1260->Result();
+		SAFE_DELETE(q_1260);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -83,6 +92,7 @@ void MainPage::Dictionary()
 	cout << "\n 2557 | 입출력과 사칙연산 | Hello World";
 	cout << "\n 2798 |    브루트 포스    |    블랙잭 ";
 	cout << "\n 2231 |    브루트 포스    |    분해합 ";
+	cout << "\n 1260 |   그래프와 순회   |  DFS와 BFS ";
 	cout << "\n ";
 
 	cout << '\n';

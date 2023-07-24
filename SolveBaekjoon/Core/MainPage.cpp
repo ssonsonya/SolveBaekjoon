@@ -78,6 +78,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 2606:
+	{
+		Question* q_2606 = new Virus();
+		q_2606->Result();
+		SAFE_DELETE(q_2606);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();

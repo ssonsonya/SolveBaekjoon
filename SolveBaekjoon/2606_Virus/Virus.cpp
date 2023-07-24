@@ -61,4 +61,9 @@ void Virus::Answer()
 
 void Virus::Result()
 {
+	cout << "\n\n -----------------------------------";
+
+	cout << "\n 메모리 	: 2024KB";
+	cout << "\n 시간		: 0ms";
+	cout << "\n 코드길이	: 473B";
 }

@@ -7,3 +7,4 @@
 #include "2231_DigitGenerator/DigitGenerator.h"
 #include "1260_DFSBFS/DFSBFS.h"
 #include "2606_Virus/Virus.h"
+#include "2667_Apt/Apt.h"

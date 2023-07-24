@@ -86,6 +86,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 2667:
+	{
+		Question* q_2667 = new Apt();
+		q_2667->Result();
+		SAFE_DELETE(q_2667);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -101,6 +109,8 @@ void MainPage::Dictionary()
 	cout << "\n 2798 |    브루트 포스    |    블랙잭 ";
 	cout << "\n 2231 |    브루트 포스    |    분해합 ";
 	cout << "\n 1260 |   그래프와 순회   |  DFS와 BFS ";
+	cout << "\n 2606 |   그래프와 순회   |    바이러스 ";
+	cout << "\n 2667 |   그래프와 순회   | 단지번호 붙이기 ";
 	cout << "\n ";
 
 	cout << '\n';

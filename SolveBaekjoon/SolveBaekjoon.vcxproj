@@ -143,6 +143,7 @@
     <ClCompile Include="2557_HelloWorld\HelloWorld.cpp" />
     <ClCompile Include="2798_BlackJack\BlackJack.cpp" />
     <ClCompile Include="1260_DFSBFS\DFSBFS.cpp" />
+    <ClCompile Include="2667_Apt\Apt.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Core\MainPage.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -155,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2798_BlackJack\BlackJack.h" />
+    <ClInclude Include="2667_Apt\Apt.h" />
     <ClInclude Include="Core\Question.h" />
     <ClInclude Include="Core\MainPage.h" />
     <ClInclude Include="2231_DigitGenerator\DigitGenerator.h" />

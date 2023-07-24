@@ -69,7 +69,6 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
-
 	case 1260:
 	{
 		Question* q_1260 = new DFSBFS();
@@ -94,6 +93,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 1012:
+	{
+		Question* q_1012 = new Cabbage();
+		q_1012->Result();
+		SAFE_DELETE(q_1012);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -111,6 +118,7 @@ void MainPage::Dictionary()
 	cout << "\n 1260 |   그래프와 순회   |  DFS와 BFS ";
 	cout << "\n 2606 |   그래프와 순회   |    바이러스 ";
 	cout << "\n 2667 |   그래프와 순회   | 단지번호 붙이기 ";
+	cout << "\n 2667 |   그래프와 순회   |   유기농 배추 ";
 	cout << "\n ";
 
 	cout << '\n';

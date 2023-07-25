@@ -12,6 +12,7 @@
     <ClCompile Include="2667_Apt\Apt.cpp" />
     <ClCompile Include="1012_Cabbage\Cabbage.cpp" />
     <ClCompile Include="11724_ConnectedComponent\ConnectedComponent.cpp" />
+    <ClCompile Include="10026_RGColorBlind\RGColorBlind.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -25,5 +26,6 @@
     <ClInclude Include="2667_Apt\Apt.h" />
     <ClInclude Include="1012_Cabbage\Cabbage.h" />
     <ClInclude Include="11724_ConnectedComponent\ConnectedComponent.h" />
+    <ClInclude Include="10026_RGColorBlind\RGColorBlind.h" />
   </ItemGroup>
 </Project>

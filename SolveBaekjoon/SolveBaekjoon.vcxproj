@@ -148,6 +148,7 @@
     <ClCompile Include="11724_ConnectedComponent\ConnectedComponent.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Core\MainPage.cpp" />
+    <ClCompile Include="10026_RGColorBlind\RGColorBlind.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -166,6 +167,7 @@
     <ClInclude Include="2231_DigitGenerator\DigitGenerator.h" />
     <ClInclude Include="2557_HelloWorld\HelloWorld.h" />
     <ClInclude Include="1260_DFSBFS\DFSBFS.h" />
+    <ClInclude Include="10026_RGColorBlind\RGColorBlind.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="2606_Virus\Virus.h" />
   </ItemGroup>

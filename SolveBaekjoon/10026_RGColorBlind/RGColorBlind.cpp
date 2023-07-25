@@ -45,7 +45,6 @@ void RGColorBlind::Answer()
 	int ans = 0;
 
 	cin >> N;
-	start = clock();
 
 	for (int i = 0; i < N; ++i)
 		cin >> arr[i];
@@ -89,7 +88,6 @@ void RGColorBlind::Answer()
 	}
 
 	cout << ans;
-	end = clock();
 }
 
 void RGColorBlind::Result()
@@ -98,6 +96,5 @@ void RGColorBlind::Result()
 
 	cout << "\n 메모리 	: 2108KB";
 	cout << "\n 시간		: 0ms ";
-	cout << end - start;
 	cout << "\n 코드길이	: 1006B";
 }

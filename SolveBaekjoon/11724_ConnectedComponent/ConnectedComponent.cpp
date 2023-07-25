@@ -15,12 +15,21 @@ ConnectedComponent::ConnectedComponent()
 	cout << "\n\n ют╥б :\n";
 
 	Answer();
-
 }
 
+static vector<int> v[1001];
 static bool chk[1001];
 
-static void DFS(int x, vector<int>* v)
+ConnectedComponent::~ConnectedComponent()
+{
+	memset(chk, false, sizeof(chk));
+	for (int i = 0; i < v->size(); ++i)
+	{
+		v[i].clear();
+	}
+}
+
+static void DFS(int x)
 {
 	chk[x] = true;
 
@@ -29,17 +38,14 @@ static void DFS(int x, vector<int>* v)
 		int next = v[x].at(i);
 
 		if (next != 0 && !chk[next])
-			DFS(next, v);
+			DFS(next);
 	}
 }
 
 void ConnectedComponent::Answer()
 {
-	vector<int> v[1001];
-	memset(chk, false, sizeof(chk));
 	int ans = 0;
-
-	int N, M = 0;
+	int N, M;
 	cin >> N >> M;
 
 	for (int i = 0; i < M; ++i)
@@ -55,12 +61,12 @@ void ConnectedComponent::Answer()
 	{
 		if (!chk[i])
 		{
-			DFS(i, v);
+			DFS(i);
 			++ans;
 		}
 	}
 
-	cout << ans << '\n';
+	cout << ans;
 }
 
 void ConnectedComponent::Result()

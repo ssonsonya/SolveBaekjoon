@@ -117,6 +117,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 4963:
+	{
+		Question* q_4963 = new IslandNum();
+		q_4963->Result();
+		SAFE_DELETE(q_4963);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -131,11 +139,12 @@ void MainPage::Dictionary()
 	cout << "\n 2557  | 입출력과 사칙연산 | Hello World";
 	cout << "\n 2798  |    브루트 포스    |    블랙잭 ";
 	cout << "\n 2231  |    브루트 포스    |    분해합 ";
-	cout << "\n 1260  |   그래프와 순회   |  DFS와 BFS ";
-	cout << "\n 2606  |   그래프와 순회   |    바이러스 ";
-	cout << "\n 2667  |   그래프와 순회   | 단지번호 붙이기 ";
-	cout << "\n 2667  |   그래프와 순회   |   유기농 배추 ";
-	cout << "\n 11724 |   그래프와 순회   | 연결요소의 개수 ";
+	cout << "\n 1260  |   깊이 우선 탐색  |  DFS와 BFS ";
+	cout << "\n 2606  |   깊이 우선 탐색  |    바이러스 ";
+	cout << "\n 2667  |   깊이 우선 탐색  | 단지번호 붙이기 ";
+	cout << "\n 2667  |   깊이 우선 탐색  |   유기농 배추 ";
+	cout << "\n 11724 |   깊이 우선 탐색  | 연결요소의 개수 ";
+	cout << "\n 4963  |   깊이 우선 탐색  |    섬의 개수 ";
 	cout << "\n ";
 
 	cout << '\n';

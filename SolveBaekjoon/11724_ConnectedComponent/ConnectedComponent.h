@@ -3,7 +3,7 @@ class ConnectedComponent : public Question
 {
 public:
 	ConnectedComponent();
-	~ConnectedComponent() {}
+	~ConnectedComponent();
 
 public:
 	virtual void Answer();

@@ -13,6 +13,7 @@
     <ClCompile Include="1012_Cabbage\Cabbage.cpp" />
     <ClCompile Include="11724_ConnectedComponent\ConnectedComponent.cpp" />
     <ClCompile Include="10026_RGColorBlind\RGColorBlind.cpp" />
+    <ClCompile Include="4963_IslandNum\IslandNum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -27,5 +28,6 @@
     <ClInclude Include="1012_Cabbage\Cabbage.h" />
     <ClInclude Include="11724_ConnectedComponent\ConnectedComponent.h" />
     <ClInclude Include="10026_RGColorBlind\RGColorBlind.h" />
+    <ClInclude Include="4963_IslandNum\IslandNum.h" />
   </ItemGroup>
 </Project>

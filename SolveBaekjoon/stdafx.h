@@ -9,3 +9,4 @@
 #include "2606_Virus/Virus.h"
 #include "2667_Apt/Apt.h"
 #include "1012_Cabbage/Cabbage.h"
+#include "11724_ConnectedComponent/ConnectedComponent.h"

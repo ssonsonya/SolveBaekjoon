@@ -13,3 +13,4 @@
 #include "10026_RGColorBlind/RGColorBlind.h"
 #include "4963_IslandNum/IslandNum.h"
 #include "2468_SafeZone/SafeZone.h"
+#include "11725_FindParent/FindParent.h"

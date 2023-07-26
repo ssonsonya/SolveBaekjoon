@@ -133,6 +133,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 11725:
+	{
+		Question* q_11725 = new FindParent();
+		q_11725->Result();
+		SAFE_DELETE(q_11725);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -154,6 +162,7 @@ void MainPage::Dictionary()
 	cout << "\n 11724 |   깊이 우선 탐색  | 연결요소의 개수 ";
 	cout << "\n 4963  |   깊이 우선 탐색  |    섬의 개수 ";
 	cout << "\n 2468  |   깊이 우선 탐색  |    안전 영역 ";
+	cout << "\n 11725 |   깊이 우선 탐색  | 트리의 부모 찾기 ";
 	cout << "\n ";
 
 	cout << '\n';

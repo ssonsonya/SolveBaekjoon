@@ -15,6 +15,7 @@
     <ClCompile Include="10026_RGColorBlind\RGColorBlind.cpp" />
     <ClCompile Include="4963_IslandNum\IslandNum.cpp" />
     <ClCompile Include="2468_SafeZone\SafeZone.cpp" />
+    <ClCompile Include="11725_FindParent\FindParent.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -31,5 +32,6 @@
     <ClInclude Include="10026_RGColorBlind\RGColorBlind.h" />
     <ClInclude Include="4963_IslandNum\IslandNum.h" />
     <ClInclude Include="2468_SafeZone\SafeZone.h" />
+    <ClInclude Include="11725_FindParent\FindParent.h" />
   </ItemGroup>
 </Project>

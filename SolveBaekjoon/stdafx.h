@@ -12,3 +12,4 @@
 #include "11724_ConnectedComponent/ConnectedComponent.h"
 #include "10026_RGColorBlind/RGColorBlind.h"
 #include "4963_IslandNum/IslandNum.h"
+#include "2468_SafeZone/SafeZone.h"

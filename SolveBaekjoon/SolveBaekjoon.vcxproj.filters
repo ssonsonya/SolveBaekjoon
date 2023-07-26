@@ -14,6 +14,7 @@
     <ClCompile Include="11724_ConnectedComponent\ConnectedComponent.cpp" />
     <ClCompile Include="10026_RGColorBlind\RGColorBlind.cpp" />
     <ClCompile Include="4963_IslandNum\IslandNum.cpp" />
+    <ClCompile Include="2468_SafeZone\SafeZone.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -29,5 +30,6 @@
     <ClInclude Include="11724_ConnectedComponent\ConnectedComponent.h" />
     <ClInclude Include="10026_RGColorBlind\RGColorBlind.h" />
     <ClInclude Include="4963_IslandNum\IslandNum.h" />
+    <ClInclude Include="2468_SafeZone\SafeZone.h" />
   </ItemGroup>
 </Project>

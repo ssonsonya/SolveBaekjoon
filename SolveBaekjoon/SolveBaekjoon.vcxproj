@@ -148,6 +148,7 @@
     <ClCompile Include="11724_ConnectedComponent\ConnectedComponent.cpp" />
     <ClCompile Include="4963_IslandNum\IslandNum.cpp" />
     <ClCompile Include="11725_FindParent\FindParent.cpp" />
+    <ClCompile Include="1987_Alphabet\Alphabet.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Core\MainPage.cpp" />
     <ClCompile Include="10026_RGColorBlind\RGColorBlind.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="2667_Apt\Apt.h" />
     <ClInclude Include="1012_Cabbage\Cabbage.h" />
     <ClInclude Include="11724_ConnectedComponent\ConnectedComponent.h" />
+    <ClInclude Include="1987_Alphabet\Alphabet.h" />
     <ClInclude Include="Core\Question.h" />
     <ClInclude Include="Core\MainPage.h" />
     <ClInclude Include="2231_DigitGenerator\DigitGenerator.h" />

@@ -149,6 +149,7 @@
     <ClCompile Include="4963_IslandNum\IslandNum.cpp" />
     <ClCompile Include="11725_FindParent\FindParent.cpp" />
     <ClCompile Include="1987_Alphabet\Alphabet.cpp" />
+    <ClCompile Include="2583_FindArea\FindArea.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Core\MainPage.cpp" />
     <ClCompile Include="10026_RGColorBlind\RGColorBlind.cpp" />
@@ -176,6 +177,7 @@
     <ClInclude Include="4963_IslandNum\IslandNum.h" />
     <ClInclude Include="2468_SafeZone\SafeZone.h" />
     <ClInclude Include="11725_FindParent\FindParent.h" />
+    <ClInclude Include="2583_FindArea\FindArea.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="2606_Virus\Virus.h" />
   </ItemGroup>

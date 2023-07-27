@@ -15,3 +15,4 @@
 #include "2468_SafeZone/SafeZone.h"
 #include "11725_FindParent/FindParent.h"
 #include "1987_Alphabet/Alphabet.h"
+#include "2583_FindArea/FindArea.h"

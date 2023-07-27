@@ -17,6 +17,7 @@
     <ClCompile Include="2468_SafeZone\SafeZone.cpp" />
     <ClCompile Include="11725_FindParent\FindParent.cpp" />
     <ClCompile Include="1987_Alphabet\Alphabet.cpp" />
+    <ClCompile Include="2583_FindArea\FindArea.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -35,5 +36,6 @@
     <ClInclude Include="2468_SafeZone\SafeZone.h" />
     <ClInclude Include="11725_FindParent\FindParent.h" />
     <ClInclude Include="1987_Alphabet\Alphabet.h" />
+    <ClInclude Include="2583_FindArea\FindArea.h" />
   </ItemGroup>
 </Project>

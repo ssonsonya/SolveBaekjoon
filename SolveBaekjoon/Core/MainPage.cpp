@@ -149,6 +149,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 2583:
+	{
+		Question* q_2583 = new FindArea();
+		q_2583->Result();
+		SAFE_DELETE(q_2583);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -172,6 +180,7 @@ void MainPage::Dictionary()
 	cout << "\n 2468  |   깊이 우선 탐색  |    안전 영역 ";
 	cout << "\n 11725 |   깊이 우선 탐색  | 트리의 부모 찾기 ";
 	cout << "\n 1987  |   깊이 우선 탐색  |     알파벳 ";
+	cout << "\n 2583  |   깊이 우선 탐색  |   영역 구하기 ";
 	cout << "\n ";
 
 	cout << '\n';

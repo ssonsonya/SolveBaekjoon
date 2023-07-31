@@ -19,6 +19,7 @@
     <ClCompile Include="1987_Alphabet\Alphabet.cpp" />
     <ClCompile Include="2583_FindArea\FindArea.cpp" />
     <ClCompile Include="2644_FamilyTree\FamilyTree.cpp" />
+    <ClCompile Include="1520_DownHill\DownHill.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -39,5 +40,6 @@
     <ClInclude Include="1987_Alphabet\Alphabet.h" />
     <ClInclude Include="2583_FindArea\FindArea.h" />
     <ClInclude Include="2644_FamilyTree\FamilyTree.h" />
+    <ClInclude Include="1520_DownHill\DownHill.h" />
   </ItemGroup>
 </Project>

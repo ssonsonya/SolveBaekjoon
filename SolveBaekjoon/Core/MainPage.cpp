@@ -165,6 +165,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 1520:
+	{
+		Question* q_1520 = new DownHill();
+		q_1520->Result();
+		SAFE_DELETE(q_1520);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -190,7 +198,8 @@ void MainPage::Dictionary()
 	cout << "\n 1987  |   깊이 우선 탐색  |     알파벳 ";
 	cout << "\n 2583  |   깊이 우선 탐색  |   영역 구하기 ";
 	cout << "\n 2583  |   깊이 우선 탐색  |   영역 구하기 ";
-	cout << "\n 2664  |   깊이 우선 탐색  |    촌수 계산 ";
+	cout << "\n 2644  |   깊이 우선 탐색  |    촌수 계산 ";
+	cout << "\n 1520  |   깊이 우선 탐색  |    내리막길 ";
 	cout << "\n ";
 
 	cout << '\n';

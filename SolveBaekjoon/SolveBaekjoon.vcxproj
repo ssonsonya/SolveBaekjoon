@@ -151,6 +151,7 @@
     <ClCompile Include="1987_Alphabet\Alphabet.cpp" />
     <ClCompile Include="2583_FindArea\FindArea.cpp" />
     <ClCompile Include="2644_FamilyTree\FamilyTree.cpp" />
+    <ClCompile Include="1520_DownHill\DownHill.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Core\MainPage.cpp" />
     <ClCompile Include="10026_RGColorBlind\RGColorBlind.cpp" />
@@ -180,6 +181,7 @@
     <ClInclude Include="11725_FindParent\FindParent.h" />
     <ClInclude Include="2583_FindArea\FindArea.h" />
     <ClInclude Include="2644_FamilyTree\FamilyTree.h" />
+    <ClInclude Include="1520_DownHill\DownHill.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="2606_Virus\Virus.h" />
   </ItemGroup>

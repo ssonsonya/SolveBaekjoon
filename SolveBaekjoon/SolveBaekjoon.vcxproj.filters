@@ -20,6 +20,8 @@
     <ClCompile Include="2583_FindArea\FindArea.cpp" />
     <ClCompile Include="2644_FamilyTree\FamilyTree.cpp" />
     <ClCompile Include="1520_DownHill\DownHill.cpp" />
+    <ClCompile Include="1707_BipartiteGraph\BipartiteGraph.cpp" />
+    <ClCompile Include="2573_Iceberg\Iceberg.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -41,5 +43,7 @@
     <ClInclude Include="2583_FindArea\FindArea.h" />
     <ClInclude Include="2644_FamilyTree\FamilyTree.h" />
     <ClInclude Include="1520_DownHill\DownHill.h" />
+    <ClInclude Include="1707_BipartiteGraph\BipartiteGraph.h" />
+    <ClInclude Include="2573_Iceberg\Iceberg.h" />
   </ItemGroup>
 </Project>

@@ -173,6 +173,22 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 1707:
+	{
+		Question* q_1707 = new BipartiteGraph();
+		q_1707->Result();
+		SAFE_DELETE(q_1707);
+		SearchNumber();
+		break;
+	}
+	case 2573:
+	{
+		Question* q_2573 = new Iceberg();
+		q_2573->Result();
+		SAFE_DELETE(q_2573);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -200,6 +216,8 @@ void MainPage::Dictionary()
 	cout << "\n 2583  |   깊이 우선 탐색  |   영역 구하기 ";
 	cout << "\n 2644  |   깊이 우선 탐색  |    촌수 계산 ";
 	cout << "\n 1520  |   깊이 우선 탐색  |    내리막길 ";
+	cout << "\n 1707  |   깊이 우선 탐색  |   이분그래프 ";
+	cout << "\n 2573  |   깊이 우선 탐색  |      빙산 ";
 	cout << "\n ";
 
 	cout << '\n';

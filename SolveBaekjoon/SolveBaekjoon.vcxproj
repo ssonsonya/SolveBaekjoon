@@ -152,6 +152,8 @@
     <ClCompile Include="2583_FindArea\FindArea.cpp" />
     <ClCompile Include="2644_FamilyTree\FamilyTree.cpp" />
     <ClCompile Include="1520_DownHill\DownHill.cpp" />
+    <ClCompile Include="1707_BipartiteGraph\BipartiteGraph.cpp" />
+    <ClCompile Include="2573_Iceberg\Iceberg.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Core\MainPage.cpp" />
     <ClCompile Include="10026_RGColorBlind\RGColorBlind.cpp" />
@@ -170,6 +172,7 @@
     <ClInclude Include="1012_Cabbage\Cabbage.h" />
     <ClInclude Include="11724_ConnectedComponent\ConnectedComponent.h" />
     <ClInclude Include="1987_Alphabet\Alphabet.h" />
+    <ClInclude Include="1707_BipartiteGraph\BipartiteGraph.h" />
     <ClInclude Include="Core\Question.h" />
     <ClInclude Include="Core\MainPage.h" />
     <ClInclude Include="2231_DigitGenerator\DigitGenerator.h" />
@@ -182,6 +185,7 @@
     <ClInclude Include="2583_FindArea\FindArea.h" />
     <ClInclude Include="2644_FamilyTree\FamilyTree.h" />
     <ClInclude Include="1520_DownHill\DownHill.h" />
+    <ClInclude Include="2573_Iceberg\Iceberg.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="2606_Virus\Virus.h" />
   </ItemGroup>

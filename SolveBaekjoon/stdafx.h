@@ -18,3 +18,5 @@
 #include "2583_FindArea/FindArea.h"
 #include "2644_FamilyTree/FamilyTree.h"
 #include "1520_DownHill/DownHill.h"
+#include "1707_BipartiteGraph/BipartiteGraph.h"
+#include "2573_Iceberg/Iceberg.h"

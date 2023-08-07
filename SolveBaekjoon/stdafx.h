@@ -20,3 +20,4 @@
 #include "1520_DownHill/DownHill.h"
 #include "1707_BipartiteGraph/BipartiteGraph.h"
 #include "2573_Iceberg/Iceberg.h"
+#include "1967_TreeDiameter/TreeDiameter_1.h"

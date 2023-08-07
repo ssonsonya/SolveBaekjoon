@@ -165,6 +165,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="2606_Virus\Virus.cpp" />
+    <ClCompile Include="1967_TreeDiameter\TreeDiameter_1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2798_BlackJack\BlackJack.h" />
@@ -188,6 +189,7 @@
     <ClInclude Include="2573_Iceberg\Iceberg.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="2606_Virus\Virus.h" />
+    <ClInclude Include="1967_TreeDiameter\TreeDiameter_1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -22,6 +22,7 @@
     <ClCompile Include="1520_DownHill\DownHill.cpp" />
     <ClCompile Include="1707_BipartiteGraph\BipartiteGraph.cpp" />
     <ClCompile Include="2573_Iceberg\Iceberg.cpp" />
+    <ClCompile Include="1967_TreeDiameter\TreeDiameter_1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -45,5 +46,6 @@
     <ClInclude Include="1520_DownHill\DownHill.h" />
     <ClInclude Include="1707_BipartiteGraph\BipartiteGraph.h" />
     <ClInclude Include="2573_Iceberg\Iceberg.h" />
+    <ClInclude Include="1967_TreeDiameter\TreeDiameter_1.h" />
   </ItemGroup>
 </Project>

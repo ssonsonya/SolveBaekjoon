@@ -168,6 +168,7 @@
     <ClCompile Include="1967_TreeDiameter_1\TreeDiameter_1.cpp" />
     <ClCompile Include="1167_TreeDiameter_2\TreeDiameter_2.cpp" />
     <ClCompile Include="1068_Tree\Tree.cpp" />
+    <ClCompile Include="9466_TermProject\TermProject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2798_BlackJack\BlackJack.h" />
@@ -194,6 +195,7 @@
     <ClInclude Include="1967_TreeDiameter_1\TreeDiameter_1.h" />
     <ClInclude Include="1167_TreeDiameter_2\TreeDiameter_2.h" />
     <ClInclude Include="1068_Tree\Tree.h" />
+    <ClInclude Include="9466_TermProject\TermProject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

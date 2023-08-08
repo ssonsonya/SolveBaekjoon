@@ -213,6 +213,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 9466:
+	{
+		Question* q_9466 = new TermProject();
+		q_9466->Result();
+		SAFE_DELETE(q_9466);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -244,6 +252,7 @@ void MainPage::Dictionary()
 	cout << "\n 2573  |   깊이 우선 탐색  |      빙산 ";
 	cout << "\n 1967  |   깊이 우선 탐색  |   트리의 지름 ";
 	cout << "\n 1068  |   깊이 우선 탐색  |      트리 ";
+	cout << "\n 9466  |   깊이 우선 탐색  |    텀 프로젝트 ";
 	cout << "\n ";
 
 	cout << '\n';

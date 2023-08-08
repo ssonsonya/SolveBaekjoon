@@ -197,6 +197,22 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 1167:
+	{
+		Question* q_1167 = new TreeDiameter_2();
+		q_1167->Result();
+		SAFE_DELETE(q_1167);
+		SearchNumber();
+		break;
+	}
+	case 1068:
+	{
+		Question* q_1068 = new Tree();
+		q_1068->Result();
+		SAFE_DELETE(q_1068);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -227,6 +243,7 @@ void MainPage::Dictionary()
 	cout << "\n 1707  |   깊이 우선 탐색  |   이분그래프 ";
 	cout << "\n 2573  |   깊이 우선 탐색  |      빙산 ";
 	cout << "\n 1967  |   깊이 우선 탐색  |   트리의 지름 ";
+	cout << "\n 1068  |   깊이 우선 탐색  |      트리 ";
 	cout << "\n ";
 
 	cout << '\n';

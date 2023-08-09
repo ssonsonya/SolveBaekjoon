@@ -26,6 +26,7 @@
     <ClCompile Include="1167_TreeDiameter_2\TreeDiameter_2.cpp" />
     <ClCompile Include="1068_Tree\Tree.cpp" />
     <ClCompile Include="9466_TermProject\TermProject.cpp" />
+    <ClCompile Include="1926_PaintNum\PaintNum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -53,5 +54,6 @@
     <ClInclude Include="1167_TreeDiameter_2\TreeDiameter_2.h" />
     <ClInclude Include="1068_Tree\Tree.h" />
     <ClInclude Include="9466_TermProject\TermProject.h" />
+    <ClInclude Include="1926_PaintNum\PaintNum.h" />
   </ItemGroup>
 </Project>

@@ -27,6 +27,7 @@
     <ClCompile Include="1068_Tree\Tree.cpp" />
     <ClCompile Include="9466_TermProject\TermProject.cpp" />
     <ClCompile Include="1926_PaintNum\PaintNum.cpp" />
+    <ClCompile Include="1325_BreakingIn\BreakingIn.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -55,5 +56,6 @@
     <ClInclude Include="1068_Tree\Tree.h" />
     <ClInclude Include="9466_TermProject\TermProject.h" />
     <ClInclude Include="1926_PaintNum\PaintNum.h" />
+    <ClInclude Include="1325_BreakingIn\BreakingIn.h" />
   </ItemGroup>
 </Project>

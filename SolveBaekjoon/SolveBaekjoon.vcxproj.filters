@@ -28,6 +28,7 @@
     <ClCompile Include="9466_TermProject\TermProject.cpp" />
     <ClCompile Include="1926_PaintNum\PaintNum.cpp" />
     <ClCompile Include="1325_BreakingIn\BreakingIn.cpp" />
+    <ClCompile Include="1937_HungryPanda\HungryPanda.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -57,5 +58,6 @@
     <ClInclude Include="9466_TermProject\TermProject.h" />
     <ClInclude Include="1926_PaintNum\PaintNum.h" />
     <ClInclude Include="1325_BreakingIn\BreakingIn.h" />
+    <ClInclude Include="1937_HungryPanda\HungryPanda.h" />
   </ItemGroup>
 </Project>

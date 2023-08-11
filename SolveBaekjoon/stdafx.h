@@ -26,3 +26,4 @@
 #include "9466_TermProject/TermProject.h"
 #include "1926_PaintNum/PaintNum.h"
 #include "1325_BreakingIn/BreakingIn.h"
+#include "1937_HungryPanda/HungryPanda.h"

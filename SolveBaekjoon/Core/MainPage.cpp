@@ -245,6 +245,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 13023:
+	{
+		Question* q_13023 = new ABCDE();
+		q_13023->Result();
+		SAFE_DELETE(q_13023);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -280,6 +288,7 @@ void MainPage::Dictionary()
 	cout << "\n 1926  |   깊이 우선 탐색  |      그림";
 	cout << "\n 1325  |   깊이 우선 탐색  |  효율적인 해킹";
 	cout << "\n 1937  |   깊이 우선 탐색  |  욕심쟁이 판다";
+	cout << "\n 13023 |   깊이 우선 탐색  |      ABCDE";
 	cout << "\n ";
 
 	cout << '\n';

@@ -30,6 +30,7 @@
     <ClCompile Include="1325_BreakingIn\BreakingIn.cpp" />
     <ClCompile Include="1937_HungryPanda\HungryPanda.cpp" />
     <ClCompile Include="13023_ABCDE\ABCDE.cpp" />
+    <ClCompile Include="2638_Cheese\Cheese.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -61,5 +62,6 @@
     <ClInclude Include="1325_BreakingIn\BreakingIn.h" />
     <ClInclude Include="1937_HungryPanda\HungryPanda.h" />
     <ClInclude Include="13023_ABCDE\ABCDE.h" />
+    <ClInclude Include="2638_Cheese\Cheese.h" />
   </ItemGroup>
 </Project>

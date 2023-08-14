@@ -29,3 +29,4 @@
 #include "1937_HungryPanda/HungryPanda.h"
 #include "13023_ABCDE/ABCDE.h"
 #include "2638_Cheese/Cheese.h"
+#include "1743_AvoidTheLakes/AvoidTheLakes.h"

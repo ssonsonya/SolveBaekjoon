@@ -261,6 +261,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 1743:
+	{
+		Question* q_1743 = new AvoidTheLakes();
+		q_1743->Result();
+		SAFE_DELETE(q_1743);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -298,6 +306,7 @@ void MainPage::Dictionary()
 	cout << "\n 1937  |   깊이 우선 탐색  |  욕심쟁이 판다";
 	cout << "\n 13023 |   깊이 우선 탐색  |      ABCDE";
 	cout << "\n 2638  |   깊이 우선 탐색  |      치즈";
+	cout << "\n 1743  |   깊이 우선 탐색  |  음식물 피하기";
 	cout << "\n ";
 
 	cout << '\n';

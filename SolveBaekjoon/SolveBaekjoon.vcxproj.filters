@@ -31,6 +31,7 @@
     <ClCompile Include="1937_HungryPanda\HungryPanda.cpp" />
     <ClCompile Include="13023_ABCDE\ABCDE.cpp" />
     <ClCompile Include="2638_Cheese\Cheese.cpp" />
+    <ClCompile Include="1743_AvoidTheLakes\AvoidTheLakes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -63,5 +64,6 @@
     <ClInclude Include="1937_HungryPanda\HungryPanda.h" />
     <ClInclude Include="13023_ABCDE\ABCDE.h" />
     <ClInclude Include="2638_Cheese\Cheese.h" />
+    <ClInclude Include="1743_AvoidTheLakes\AvoidTheLakes.h" />
   </ItemGroup>
 </Project>

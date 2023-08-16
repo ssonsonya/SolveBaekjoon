@@ -46,12 +46,12 @@ static void DFS(int row, int col)
 void AvoidTheLakes::Answer()
 {
 	int K = 0;
-	scanf("%d %d %d", &N, &M, &K);
+	scanf_s("%d %d %d", &N, &M, &K);
 	for (int i = 0; i < K; ++i)
 	{
 		int R = 0;
 		int C = 0;
-		scanf("%d %d", &R, &C);
+		scanf_s("%d %d", &R, &C);
 
 		map[R][C] = true;
 	}
@@ -84,5 +84,8 @@ void AvoidTheLakes::Result()
 
 AvoidTheLakes::~AvoidTheLakes()
 {
-
+	memset(map, false, sizeof(map));
+	memset(chk, false, sizeof(chk));
+	newSize = 0;
+	maxSize = 0;
 }

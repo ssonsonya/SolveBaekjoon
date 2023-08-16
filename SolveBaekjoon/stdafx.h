@@ -30,3 +30,5 @@
 #include "13023_ABCDE/ABCDE.h"
 #include "2638_Cheese/Cheese.h"
 #include "1743_AvoidTheLakes/AvoidTheLakes.h"
+#include "17471_Gerrymandering/Gerrymandering.h"
+#include "2251_MothersMilk/MothersMilk.h"

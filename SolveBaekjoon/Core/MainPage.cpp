@@ -269,6 +269,22 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 17471:
+	{
+		Question* q_17471 = new Gerrymandering();
+		q_17471->Result();
+		SAFE_DELETE(q_17471);
+		SearchNumber();
+		break;
+	}
+	case 2251:
+	{
+		Question* q_2251 = new MothersMilk();
+		q_2251->Result();
+		SAFE_DELETE(q_2251);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -307,6 +323,8 @@ void MainPage::Dictionary()
 	cout << "\n 13023 |   깊이 우선 탐색  |      ABCDE";
 	cout << "\n 2638  |   깊이 우선 탐색  |      치즈";
 	cout << "\n 1743  |   깊이 우선 탐색  |  음식물 피하기";
+	cout << "\n 17471 |   깊이 우선 탐색  |    게리맨더링";
+	cout << "\n 2251  |   깊이 우선 탐색  |      물통";
 	cout << "\n ";
 
 	cout << '\n';

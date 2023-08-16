@@ -159,11 +159,13 @@
     <ClCompile Include="13023_ABCDE\ABCDE.cpp" />
     <ClCompile Include="2638_Cheese\Cheese.cpp" />
     <ClCompile Include="1743_AvoidTheLakes\AvoidTheLakes.cpp" />
+    <ClCompile Include="17471_Gerrymandering\Gerrymandering.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Core\MainPage.cpp" />
     <ClCompile Include="10026_RGColorBlind\RGColorBlind.cpp" />
     <ClCompile Include="2468_SafeZone\SafeZone.cpp" />
     <ClCompile Include="1926_PaintNum\PaintNum.cpp" />
+    <ClCompile Include="2251_MothersMilk\MothersMilk.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -202,6 +204,8 @@
     <ClInclude Include="2573_Iceberg\Iceberg.h" />
     <ClInclude Include="1926_PaintNum\PaintNum.h" />
     <ClInclude Include="1937_HungryPanda\HungryPanda.h" />
+    <ClInclude Include="17471_Gerrymandering\Gerrymandering.h" />
+    <ClInclude Include="2251_MothersMilk\MothersMilk.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="2606_Virus\Virus.h" />
     <ClInclude Include="1967_TreeDiameter_1\TreeDiameter_1.h" />

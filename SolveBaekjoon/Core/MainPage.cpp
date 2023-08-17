@@ -285,6 +285,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 2668:
+	{
+		Question* q_2668 = new PickNumber();
+		q_2668->Result();
+		SAFE_DELETE(q_2668);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();
@@ -325,6 +333,7 @@ void MainPage::Dictionary()
 	cout << "\n 1743  |   깊이 우선 탐색  |  음식물 피하기";
 	cout << "\n 17471 |   깊이 우선 탐색  |    게리맨더링";
 	cout << "\n 2251  |   깊이 우선 탐색  |      물통";
+	cout << "\n 2668  |   깊이 우선 탐색  |    숫자고르기";
 	cout << "\n ";
 
 	cout << '\n';

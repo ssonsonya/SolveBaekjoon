@@ -34,6 +34,7 @@
     <ClCompile Include="1743_AvoidTheLakes\AvoidTheLakes.cpp" />
     <ClCompile Include="17471_Gerrymandering\Gerrymandering.cpp" />
     <ClCompile Include="2251_MothersMilk\MothersMilk.cpp" />
+    <ClCompile Include="2668_PickNumber\PickNumber.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -69,5 +70,6 @@
     <ClInclude Include="1743_AvoidTheLakes\AvoidTheLakes.h" />
     <ClInclude Include="17471_Gerrymandering\Gerrymandering.h" />
     <ClInclude Include="2251_MothersMilk\MothersMilk.h" />
+    <ClInclude Include="2668_PickNumber\PickNumber.h" />
   </ItemGroup>
 </Project>

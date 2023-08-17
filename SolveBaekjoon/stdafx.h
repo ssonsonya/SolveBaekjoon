@@ -32,3 +32,4 @@
 #include "1743_AvoidTheLakes/AvoidTheLakes.h"
 #include "17471_Gerrymandering/Gerrymandering.h"
 #include "2251_MothersMilk/MothersMilk.h"
+#include "2668_PickNumber/PickNumber.h"

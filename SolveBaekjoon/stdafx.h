@@ -33,3 +33,4 @@
 #include "17471_Gerrymandering/Gerrymandering.h"
 #include "2251_MothersMilk/MothersMilk.h"
 #include "2668_PickNumber/PickNumber.h"
+#include "3109_Bakery/Bakery.h"

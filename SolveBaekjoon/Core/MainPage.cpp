@@ -293,6 +293,14 @@ void MainPage::CheckNumber(int input)
 		SearchNumber();
 		break;
 	}
+	case 3109:
+	{
+		Question* q_3109 = new Bakery();
+		q_3109->Result();
+		SAFE_DELETE(q_3109);
+		SearchNumber();
+		break;
+	}
 	default:
 		cout << "\n 아직 풀지 못한 문제번호입니다 :)\n 아래 목록 참고해주세요!";
 		Dictionary();

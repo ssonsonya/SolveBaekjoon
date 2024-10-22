@@ -5,15 +5,15 @@
 
 ### 문제풀이 현황
 
-|알고리즘 구분|문제 갯수|
-|:---:|:---:|
-|입출력과 사칙연산|1|
-|브루트 포스|2|
-|깊이 우선 탐색|27|
+|알고리즘 구분|문제풀이 갯수|진행도
+|:---:|:---:|:---:|
+|[입출력과 사칙연산](/Index/InputOutput.md)|1/13| ![](https://geps.dev/progress/7)|
+|[브루트 포스](/Index/BruteForce.md)|2/6| ![](https://geps.dev/progress/33)|
+|[깊이 우선 탐색](/Index/DFS.md)|27/837| ![](https://geps.dev/progress/3)|
 
 ### 커밋 규칙
 
 + [Clear] 문제 해결
 + [Working] 문제 풀이 중
 + [Revise] 문제 복습
-+ [Comment] 생각 노트
++ [Style] 프로그램 내용 개선
